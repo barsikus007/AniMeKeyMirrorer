@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "animekeymirrorer"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Pillow = "^9.4.0"
+wheel = "^0.38.4"
+pynput = "^1.7.6"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.0.1"
+bandit = "^1.7.4"
+pylint = "^2.16.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
